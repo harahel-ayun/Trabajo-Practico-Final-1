@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid yellow;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    color: yellow;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#home {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home .intro {
+    max-width: 60%;
+}
+
+#home .intro h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+#home .intro h1 {
+    color: white;
+}
+
+#home .intro p {
+    font-size: 20px;
+    color: white;
+}
+
+.profile-image {
+    max-width: 40%;
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    border: 8px solid gray;
+}
+
+#services, #contact {
+    text-align: center;
+    background: #fff;
+    padding: 60px 0;
+}
+
+#portfolio {
+    background: black;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    background: black;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #282828;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+button, .btn-primary, .btn-secondary {
+    background-color: yellow;
+    color: black;
+    padding: 15px 32px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover, .btn-primary:hover, .btn-secondary:hover {
+    background-color: #ffd700;
+}
+
+#services {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#services h2, #services p {
+    color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.container p, h2 {
+    color: white;
+}
+.containercontact p, h2{
+    color: black;
+}
+.grid-item {
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-hire, .btn-view-all {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-hire:hover, .btn-view-all:hover {
+    background-color: #ffd700;
+}
+
+.blog-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.blog-items .item {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.blog-items .item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-items .item h3 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.blog-items .item p {
+    font-size: 16px;
+}
+
+.blog-items .item a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.blog-items .item a:hover {
+    text-decoration: underline;
+}
