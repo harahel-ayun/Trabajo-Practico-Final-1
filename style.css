@@ -303,3 +303,10 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
 .containerservicios{
     text-align: center;
 }
+.tools {
+    text-align: center;
+}
+#Herramientas .tools .Imagen img {
+    width: 100px; 
+    height: auto; 
+  }
