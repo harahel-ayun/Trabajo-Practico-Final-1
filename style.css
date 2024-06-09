@@ -109,9 +109,9 @@ section {
 }
 
 #portfolio {
+    text-align: center;
     background: black;
     padding: 60px 0;
-    text-align: center;
 }
 
 .portfolio-items {
@@ -157,6 +157,7 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
 }
 
 #services {
+   text-align: center;
     background-color: black;
     color: white;
     padding: 20px;
@@ -170,12 +171,16 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+
 }
 .container p, h2 {
-    color: white;
+    color:white;
 }
 .containercontact p, h2{
-    color: black;
+    color:black;
+}
+.containerportfolio p, h2{
+    color:white
 }
 .grid-item {
     background-color: gray;
@@ -242,4 +247,59 @@ button:hover, .btn-primary:hover, .btn-secondary:hover {
 
 .blog-items .item a:hover {
     text-decoration: underline;
+}
+.contact-form-container {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contact-form input  {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form textarea{
+    width: 50%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: absolute;
+}
+
+.contact-form button:hover {
+    background: #ffd700;
+}
+.containerfin{
+    text-align: center;
+}
+.containerultimoblog{
+    text-align: center;
+    color: white;
+}
+.containerservicios{
+    text-align: center;
 }
